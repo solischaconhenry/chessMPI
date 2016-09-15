@@ -420,6 +420,6 @@ class ChessAI:
         if table[toTupleInt[0]][toTupleInt[1]][1] == "B":
             self.CBishop.getPointsBishop(toTupleInt,table)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "Q":
-            self.CQueen.getPointsQueen(toTupleInt,table, originalTuple)
+            self.CQueen.getPointsQueen(toTupleInt,table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "K":
             self.CKing.getKingPoints()
