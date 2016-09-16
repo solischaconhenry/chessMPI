@@ -416,7 +416,7 @@ class ChessAI:
         if table[toTupleInt[0]][toTupleInt[1]][1] == "P":
             return# self.CPawn.getPointsPawn(toTupleInt,table,actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "H":
-            return self.CHourse.getPointsHourse(toTupleInt, table)
+            return self.CHourse.getPointsHourse(toTupleInt, table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "R":
             return self.CRook.getPointsRook(toTupleInt, table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "B":

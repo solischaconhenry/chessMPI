@@ -1128,7 +1128,7 @@ class ChessTable:
             row = fromTupleInt[0]
             col = fromTupleInt[1] - 1
 
-            while col < 8:
+            while col >= 0:
                 if self.squares[row][col] == "e" or self.squares[row][col][0] == colorC:
                     strw = "" + self.colL[col] + "" + str(8 - row)
                     PossibleMoves.append(strw)
