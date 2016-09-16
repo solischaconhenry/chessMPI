@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c48c77d-6604-4333-bbf2-60d57e35f6ad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChessAI.py" afterPath="$PROJECT_DIR$/ChessAI.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChessBishop.py" afterPath="$PROJECT_DIR$/ChessBishop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChessQueen.py" afterPath="$PROJECT_DIR$/ChessQueen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChessRook.py" afterPath="$PROJECT_DIR$/ChessRook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChessTable.py" afterPath="$PROJECT_DIR$/ChessTable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <ignored path="ProyectoOS1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,34 +36,10 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="153">
+              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChessAI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChessAI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="422" column="84" selection-start-line="422" selection-start-column="84" selection-end-line="422" selection-end-column="84" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChessQueen.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChessQueen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="128" column="41" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
-              <folding>
-                <element signature="e#122#2246#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -66,8 +48,8 @@
       <file leaf-file-name="ChessTable.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ChessTable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="1244" column="0" selection-start-line="1244" selection-start-column="0" selection-end-line="1244" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="1237" column="80" selection-start-line="1237" selection-start-column="80" selection-end-line="1237" selection-end-column="80" />
               <folding>
                 <element signature="e#913#932#0" expanded="false" />
                 <element signature="e#1582#3027#0" expanded="false" />
@@ -82,11 +64,48 @@
                 <element signature="e#46307#51194#0" expanded="false" />
                 <element signature="e#51362#51484#0" expanded="false" />
                 <element signature="e#51672#54895#0" expanded="false" />
-                <element signature="e#55087#56946#0" expanded="false" />
-                <element signature="e#57139#58989#0" expanded="false" />
-                <element signature="e#62629#65023#0" expanded="false" />
-                <element signature="e#66784#68117#0" expanded="false" />
-                <element signature="e#68276#68826#0" expanded="false" />
+                <element signature="e#55087#57091#0" expanded="false" />
+                <element signature="e#57284#59282#0" expanded="false" />
+                <element signature="e#63217#65611#0" expanded="false" />
+                <element signature="e#65798#67288#0" expanded="false" />
+                <element signature="e#68864#69414#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChessAI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChessAI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#459#12575#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChessQueen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChessQueen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+              <folding>
+                <element signature="e#122#2246#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChessRook.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChessRook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+              <folding>
+                <element signature="e#299#1475#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,13 +127,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ChessPawn.py" />
-        <option value="$PROJECT_DIR$/ChessBishop.py" />
         <option value="$PROJECT_DIR$/ChessHourse.py" />
-        <option value="$PROJECT_DIR$/ChessRook.py" />
         <option value="$PROJECT_DIR$/ChessKing.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/ChessTable.py" />
         <option value="$PROJECT_DIR$/ChessQueen.py" />
+        <option value="$PROJECT_DIR$/ChessBishop.py" />
+        <option value="$PROJECT_DIR$/ChessRook.py" />
+        <option value="$PROJECT_DIR$/ChessTable.py" />
         <option value="$PROJECT_DIR$/ChessAI.py" />
       </list>
     </option>
@@ -128,7 +147,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -172,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,8 +199,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessMPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessMPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,10 +434,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118303575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11865672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -417,7 +446,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48281506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7675941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -443,12 +472,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/ChessAI.py</url>
-          <line>421</line>
-          <option name="timeStamp" value="77" />
+          <url>file://$PROJECT_DIR$/ChessTable.py</url>
+          <line>1131</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/ChessTable.py</url>
+          <line>1230</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -490,11 +524,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -505,6 +539,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#459#12575#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -544,11 +579,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -588,11 +623,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,11 +667,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,11 +719,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,11 +771,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,11 +815,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,11 +859,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,11 +903,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,11 +947,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -952,38 +987,10 @@
     <entry file="file://C:/Python27/Lib/urllib.py" />
     <entry file="file://$USER_HOME$/Escritorio/ChessAI.py" />
     <entry file="file://$USER_HOME$/Documentos/ChessAI.py" />
-    <entry file="file://$PROJECT_DIR$/ChessPawn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ChessHourse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChessRook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChessBishop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChessKing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -994,20 +1001,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ChessKing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessPawn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ChessBishop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#426#0" expanded="false" />
+            <element signature="e#482#1703#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessRook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="e#299#1475#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ChessQueen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="128" column="41" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+        <state relative-caret-position="340">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
           <folding>
             <element signature="e#122#2246#0" expanded="false" />
           </folding>
@@ -1016,18 +1060,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChessAI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="422" column="84" selection-start-line="422" selection-start-column="84" selection-end-line="422" selection-end-column="84" />
+        <state relative-caret-position="96">
+          <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#459#12575#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChessTable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="1244" column="0" selection-start-line="1244" selection-start-column="0" selection-end-line="1244" selection-end-column="0" />
+        <state relative-caret-position="174">
+          <caret line="1237" column="80" selection-start-line="1237" selection-start-column="80" selection-end-line="1237" selection-end-column="80" />
           <folding>
             <element signature="e#913#932#0" expanded="false" />
             <element signature="e#1582#3027#0" expanded="false" />
@@ -1042,11 +1087,11 @@
             <element signature="e#46307#51194#0" expanded="false" />
             <element signature="e#51362#51484#0" expanded="false" />
             <element signature="e#51672#54895#0" expanded="false" />
-            <element signature="e#55087#56946#0" expanded="false" />
-            <element signature="e#57139#58989#0" expanded="false" />
-            <element signature="e#62629#65023#0" expanded="false" />
-            <element signature="e#66784#68117#0" expanded="false" />
-            <element signature="e#68276#68826#0" expanded="false" />
+            <element signature="e#55087#57091#0" expanded="false" />
+            <element signature="e#57284#59282#0" expanded="false" />
+            <element signature="e#63217#65611#0" expanded="false" />
+            <element signature="e#65798#67288#0" expanded="false" />
+            <element signature="e#68864#69414#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1103,7 +1103,8 @@ class ChessTable:
 
             while col < 8:
                 if self.squares[row][col] == "e" or self.squares[row][col][0] == colorC:
-                    PossibleMoves.append(self.colL[col] + "" + str(8 - row))
+                    strw = "" + self.colL[col] + "" + str(8 - row)
+                    PossibleMoves.append(strw)
                     col += 1
 
                 else:
@@ -1115,7 +1116,8 @@ class ChessTable:
 
             while row >= 0:
                 if self.squares[row][col] == "e" or self.squares[row][col][0] == colorC:
-                    PossibleMoves.append(self.colL[col] + "" + str(8 - row))
+                    strw =  "" + self.colL[col] + "" + str(8 - row)
+                    PossibleMoves.append(strw)
                     row -= 1
 
                 else:
@@ -1128,7 +1130,8 @@ class ChessTable:
 
             while col < 8:
                 if self.squares[row][col] == "e" or self.squares[row][col][0] == colorC:
-                    PossibleMoves.append(self.colL[col] + "" + str(8 - row))
+                    strw = "" + self.colL[col] + "" + str(8 - row)
+                    PossibleMoves.append(strw)
                     col -= 1
 
                 else:
@@ -1140,7 +1143,8 @@ class ChessTable:
             col = fromTupleInt[1]
             while row < 8 and col >= 0:
                 if self.squares[row][col] == "e" or self.squares[row][col][0] == colorC:
-                    PossibleMoves.append(self.colL[col] + "" + str(8 - row))
+                    strw =  self.colL[col] + "" + str(8 - row)
+                    PossibleMoves.append(strw)
                     row += 1
                 else:
                     break
@@ -1148,7 +1152,7 @@ class ChessTable:
 
     # *******************************************************************************************************************
     def GetMovesFromBishopMoves(self, fromTupleInt, actualPlayer):
-        PossibleMoves = ""
+        PossibleMoves = []
         colorC = ""
         if actualPlayer.color == "w":
             colorC = "b"
@@ -1163,7 +1167,8 @@ class ChessTable:
 
             while r<8 and c<8:
                 if self.squares[r][c] == "e" or self.squares[r][c][0]== colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r+=1
                     c+=1
 
@@ -1177,7 +1182,8 @@ class ChessTable:
 
             while r>=0 and c>=0:
                 if self.squares[r][c] == "e" or self.squares[r][c][0]== colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r-=1
                     c-=1
 
@@ -1190,7 +1196,8 @@ class ChessTable:
 
             while r >= 0 and c < 8:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r -= 1
                     c += 1
 
@@ -1203,7 +1210,8 @@ class ChessTable:
 
             while r < 8  and c >= 0:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r += 1
                     c -= 1
 
@@ -1213,7 +1221,7 @@ class ChessTable:
 
     # *******************************************************************************************************************
     def GetMovesFromQueen (self, fromTupleInt, actualPlayer):
-        PossibleMoves = ""
+        PossibleMoves = []
         colorC = ""
         if actualPlayer.color == "w":
             colorC = "b"
@@ -1228,7 +1236,8 @@ class ChessTable:
 
             while r < 8 and c < 8:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r += 1
                     c += 1
 
@@ -1242,7 +1251,8 @@ class ChessTable:
 
             while r >= 0 and c >= 0:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r -= 1
                     c -= 1
 
@@ -1255,7 +1265,8 @@ class ChessTable:
 
             while r >= 0 and c < 8:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r -= 1
                     c += 1
 
@@ -1268,7 +1279,8 @@ class ChessTable:
 
             while r < 8 and c >= 0:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append( self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r += 1
                     c -= 1
 
@@ -1282,7 +1294,8 @@ class ChessTable:
 
             while r < 8:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r += 1
 
                 else:
@@ -1295,7 +1308,8 @@ class ChessTable:
 
             while r >= 0:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     r -= 1
 
                 else:
@@ -1308,7 +1322,8 @@ class ChessTable:
 
             while c < 8:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     c += 1
 
                 else:
@@ -1320,7 +1335,8 @@ class ChessTable:
 
             while c >= 0:
                 if self.squares[r][c] == "e" or self.squares[r][c][0] == colorC:
-                    PossibleMoves.append(self.colL[c] + "" + str(8 - r))
+                    strw = "" + self.colL[c] + "" + str(8 - r)
+                    PossibleMoves.append(strw)
                     c -= 1
 
                 else:

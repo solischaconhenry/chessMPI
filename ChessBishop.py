@@ -2,7 +2,9 @@ from ChessTable import ChessTable
 
 class Bishop:
 
-    def parejaALfiles(self, tablero, color):
+    x = ChessTable()
+
+    def bothBishop(self, tablero, color):
         counter = 0.0
         row = 0
         col = 0
@@ -10,6 +12,8 @@ class Bishop:
             if tablero[row][col] != 'e':
                 if tablero[row][col][0] == color and tablero[row][col][1] == 'B':
                     counter += 0.25
+            row += 1
+            col += 1
         return counter
 
 
@@ -72,10 +76,15 @@ class Bishop:
                 break
         return counter
 
-    def getPointsBishop(self, toTuple, table):
-        row = toTuple[0]
-        col = toTuple[1]
-        color = table[row][col][0]
+    # Get the number of moves than the bishop can move
+    def movilityBishop(self, toTuple, originalTuple, table, actualPlayer):
+        data = self.x.GetMovesChooser4Points(originalTuple, actualPlayer, table)
+        return len(data)
 
-        value = float(3 + (self.parejaALfiles(table,color)) + (self.defenseBishop(toTuple,table)))
+    def getPointsBishop(self, toTuple, table, originalTuple, actualPlayer):
+        color = actualPlayer
+        defense = float(self.defenseBishop(toTuple,table))
+        movility = float(self.movilityBishop(toTuple,originalTuple,table,actualPlayer))
+        pairs = self.bothBishop(table, actualPlayer)
+        value = float(3 + float(movility * 0.1) + float(defense*0.05) + pairs)
         return value

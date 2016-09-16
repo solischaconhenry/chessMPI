@@ -129,5 +129,6 @@ class queen:
         print "Defense: " + repr(defense)
         movility = float(self.movilityQueen(toTuple,originalTuple,table, actualPlayer))
         print "\n Movility: " + repr(movility)
-        valor = float(9 + ((defense * 0.05) + (movility * 0.1)))
+        valor = repr(float(9 + ((defense * 0.05) + (movility * 0.1))))
+        print "\n Points Q: " + valor
         return valor

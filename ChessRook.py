@@ -3,13 +3,9 @@ from ChessTable import ChessTable
 class rook:
 
     x = ChessTable()
-    def movilidadRook(self, toTuple, table):
-
-        row = toTuple[0]
-        col = toTuple[1]
-        colorC = table[row][col][0]
-        availableMoves = self.x.GetMovesChooser(toTuple,colorC)
-        return len(availableMoves)
+    def movilidadRook(self, toTuple, originalTuple, table,actualPlayer):
+        data = self.x.GetMovesChooser4Points(originalTuple,actualPlayer, table)
+        return len(data)
 
     def defendiendo(self, toTuple, table):
         row = toTuple[0]
@@ -66,7 +62,9 @@ class rook:
                 break
         return counter
 
-    def getPointsRook(self, toTuple, table, actualPlayer):
-        value = float(5 + float(self.movilidadRook(toTuple, actualPlayer) * 0.1) + (self.defendiendo(toTuple, table)*0.05))
+    def getPointsRook(self, toTuple, table, originalTuple, actualPlayer):
+        defense = float(self.defendiendo(toTuple, table))
+        movility =  float(self.movilidadRook(toTuple, originalTuple, table, actualPlayer))
+        value = repr(float(5 + defense* 0.1+ (movility * 0.05)))
         return value
 

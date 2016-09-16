@@ -3,6 +3,7 @@ from ChessHourse import Hourse
 from ChessKing import king
 from ChessQueen import queen
 from ChessRook import rook
+#from ChessPawn import ChessPawn
 
 class ChessAI:
     def __init__(self):
@@ -11,6 +12,7 @@ class ChessAI:
         self.CHourse = Hourse()
         self.CKing = king()
         self.CRook = rook()
+        #self.CPawn = ChessPawn()
 
     #def EvaluationMin()
 
@@ -412,14 +414,14 @@ class ChessAI:
 
     def EvaluatePiece(self, toTupleInt, table, actualPlayer, originalTuple):
         if table[toTupleInt[0]][toTupleInt[1]][1] == "P":
-            return
+            return# self.CPawn.getPointsPawn(toTupleInt,table,actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "H":
-            self.CHourse.getPointsHourse(toTupleInt,table)
+            return self.CHourse.getPointsHourse(toTupleInt, table)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "R":
-            self.CRook.getPointsRook(toTupleInt,table,actualPlayer)
+            return self.CRook.getPointsRook(toTupleInt, table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "B":
-            self.CBishop.getPointsBishop(toTupleInt,table)
+            return self.CBishop.getPointsBishop(toTupleInt, table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "Q":
-            self.CQueen.getPointsQueen(toTupleInt,table, originalTuple, actualPlayer)
+            return self.CQueen.getPointsQueen(toTupleInt, table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "K":
-            self.CKing.getKingPoints()
+            return self.CKing.getKingPoints()
