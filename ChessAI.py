@@ -411,7 +411,7 @@ class ChessAI:
 
     '''
 
-
+    #function for evaluate the move of one piece, return the value or evaluation
     def EvaluatePiece(self, toTupleInt, table, actualPlayer, originalTuple):
         if table[toTupleInt[0]][toTupleInt[1]][1] == "P":
             return# self.CPawn.getPointsPawn(toTupleInt,table,actualPlayer)
@@ -425,3 +425,16 @@ class ChessAI:
             return self.CQueen.getPointsQueen(toTupleInt, table, originalTuple, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "K":
             return self.CKing.getKingPoints()
+
+    def EvaluateChessTable(self, ActualTable, CurrectColor):
+        counter = 0.0
+        row = 0
+        col = 0
+        while row < 8 and col < 8:
+            if ActualTable[row][col] != CurrectColor or ActualTable[row][col] == 'e':
+                tupleint = [row, col]
+                self.EvaluatePiece(tupleint, ActualTable, CurrectColor, )
+            return
+            row += 1
+            col += 1
+        return counter
