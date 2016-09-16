@@ -120,14 +120,14 @@ class queen:
 
 
     #Get the number of moves than the queen can move
-    def movilityQueen(self, toTuple, originalTuple, table,actualPlayer):
-        data = self.x.GetMovesChooser4Points(originalTuple,actualPlayer, table)
+    def movilityQueen(self, toTuple, table,actualPlayer):
+        data = self.x.GetMovesChooser4Points(toTuple,actualPlayer, table)
         return len(data)
 
-    def getPointsQueen(self, toTuple, table, originalTuple, actualPlayer):
+    def getPointsQueen(self, toTuple, table, actualPlayer):
         defense = float(self.defensaQueen(toTuple,table))
         print "Defense: " + repr(defense)
-        movility = float(self.movilityQueen(toTuple,originalTuple,table, actualPlayer))
+        movility = float(self.movilityQueen(toTuple, table, actualPlayer))
         print "\n Movility: " + repr(movility)
         valor = repr(float(9 + ((defense * 0.05) + (movility * 0.1))))
         print "\n Points Q: " + valor

@@ -1460,9 +1460,9 @@ class ChessTable:
 
 #*******************************************GET MOVES FOR GET POINTS***************************************************
 
-    def GetMovesChooser4Points(self, fromTuple, actualPlayer, table):
+    def GetMovesChooser4Points(self, fromTupleInt, actualPlayer, table):
             #indica el tipo de pieza de la casilla indicada por el jugador
-            fromTupleInt = [8 - int(fromTuple[1]), int(self.getNumberPos(fromTuple[0]))]
+            #fromTupleInt = [8 - int(fromTuple[1]), int(self.getNumberPos(fromTuple[0]))]
             if table[fromTupleInt[0]][fromTupleInt[1]][1] == "P":
                 data = self.GetMovesFromPawn(fromTupleInt, actualPlayer)
                 print data

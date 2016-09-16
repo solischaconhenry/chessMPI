@@ -3,7 +3,7 @@ from ChessHourse import Hourse
 from ChessKing import king
 from ChessQueen import queen
 from ChessRook import rook
-#from ChessPawn import ChessPawn
+from ChessPawn import ChessPawn
 
 class ChessAI:
     def __init__(self):
@@ -12,7 +12,7 @@ class ChessAI:
         self.CHourse = Hourse()
         self.CKing = king()
         self.CRook = rook()
-        #self.CPawn = ChessPawn()
+        self.CPawn = ChessPawn()
 
     #def EvaluationMin()
 
@@ -412,29 +412,30 @@ class ChessAI:
     '''
 
     #function for evaluate the move of one piece, return the value or evaluation
-    def EvaluatePiece(self, toTupleInt, table, actualPlayer, originalTuple):
+    def EvaluatePiece(self, toTupleInt, table, actualPlayer):
         if table[toTupleInt[0]][toTupleInt[1]][1] == "P":
-            return# self.CPawn.getPointsPawn(toTupleInt,table,actualPlayer)
+            return self.CPawn.getPointsPawn(toTupleInt,table,actualPlayer.color)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "H":
-            return self.CHourse.getPointsHourse(toTupleInt, table, originalTuple, actualPlayer)
+            return self.CHourse.getPointsHourse(toTupleInt, table, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "R":
-            return self.CRook.getPointsRook(toTupleInt, table, originalTuple, actualPlayer)
+            return self.CRook.getPointsRook(toTupleInt, table, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "B":
-            return self.CBishop.getPointsBishop(toTupleInt, table, originalTuple, actualPlayer)
+            return self.CBishop.getPointsBishop(toTupleInt, table, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "Q":
-            return self.CQueen.getPointsQueen(toTupleInt, table, originalTuple, actualPlayer)
+            return self.CQueen.getPointsQueen(toTupleInt, table, actualPlayer)
         if table[toTupleInt[0]][toTupleInt[1]][1] == "K":
             return self.CKing.getKingPoints()
 
     def EvaluateChessTable(self, ActualTable, CurrectColor):
         counter = 0.0
         row = 0
-        col = 0
-        while row < 8 and col < 8:
-            if ActualTable[row][col] != CurrectColor or ActualTable[row][col] == 'e':
-                tupleint = [row, col]
-                self.EvaluatePiece(tupleint, ActualTable, CurrectColor, )
-            return
+        while row < 8:
+            col = 0
+            while col <8:
+                if ActualTable[row][col][0] == CurrectColor.color:
+                    toTupleInt = [row, col]
+                    counter += float(self.EvaluatePiece(toTupleInt, ActualTable, CurrectColor))
+                col += 1
             row += 1
-            col += 1
+
         return counter

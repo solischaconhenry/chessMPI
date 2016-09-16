@@ -4,9 +4,9 @@ class Hourse:
 
     x = ChessTable()
 
-    def hourseMoves(self, toTuple, originalTuple, table,actualPlayer):
+    def hourseMoves(self, toTuple, table,actualPlayer):
 
-        data = self.x.GetMovesChooser4Points(originalTuple,actualPlayer, table)
+        data = self.x.GetMovesChooser4Points(toTuple,actualPlayer, table)
         return len(data)
 
     def defense(self, toTuple, table):
@@ -50,8 +50,8 @@ class Hourse:
         return counter
 
 
-    def getPointsHourse(self, toTuple, table, originalTuple, actualPlayer):
+    def getPointsHourse(self, toTuple, table, actualPlayer):
         defense = float(self.defense(toTuple,table))
-        movility = float(self.hourseMoves(toTuple,originalTuple,table, actualPlayer))
+        movility = float(self.hourseMoves(toTuple,table, actualPlayer))
         value = repr(float(3 + (defense * 0.05) + (movility * 0.1)))
         return value

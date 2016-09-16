@@ -35,7 +35,8 @@ class mainChess:
             elif getOri == "points":
                 getOri = raw_input(choose)
                 toTupleInt = [8 - int(getOri[1]), int(self.mainTable.getNumberPos(getOri[0]))]
-                print (self.AI.EvaluatePiece(toTupleInt, self.mainTable.squares,self.actualPlayer, getOri))
+                print repr(self.AI.EvaluateChessTable(self.mainTable.squares,self.actualPlayer))
+                #print (self.AI.EvaluatePiece(toTupleInt, self.mainTable.squares,self.actualPlayer, getOri))
                 #print self.AI.EvaluateMove(self.mainTable.squares,self.actualPlayer,toTupleInt,"P")
                 #getOri = raw_input(choose)
 
